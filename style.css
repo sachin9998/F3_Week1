@@ -1,0 +1,180 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-top: 70px;
+}
+
+.card {
+    height: 70vh;
+
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: fit-content;
+
+}
+
+.text {
+    width: 300px;
+    height: 35px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    background-color: #262626;
+    border: none;
+    color: white;
+}
+
+.duedate {
+    background-color: #808080;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#priority {
+    width: 55px;
+    background-color: #808080;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#status {
+    width: 55px;
+    background-color: #808080;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.btn {
+    width: 60px;
+    height: 40px;
+    background-color: #1E6F9F;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.w {
+    color: white;
+}
+
+.boxo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card2 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card2 .color {
+    border-bottom: 2px solid #808080;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card2 .color .box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 98%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.full {
+    background-color: #191919;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.s {
+    text-decoration: line-through;
+}
+
+.h1 {
+    color: white;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.b button {
+    background-color: rgb(229, 151, 151);
+    width: 60px;
+    border-radius: 10px;
+}
+
+.b button+button {
+    background-color: rgb(206, 251, 139);
+}
+
+.card2 .color .box1 h1 {
+    color: #4EA8DE;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.card2 .color .box1 p {
+    background-color: #808080;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.card2 .color .box1 .box12 h1 {
+    color: #8284FA;
+
+}
+
+.card2 .color .box1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card2 .color .box1 .a {
+    display: flex;
+    gap: 7px;
+
+}
+
+.card2 .color .one {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #333333;
+    background-color: #333333;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.card2 .color .one .input {
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+}
