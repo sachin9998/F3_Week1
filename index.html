@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="logo">
+        <img src="assests/Logo (2).png" alt="pic">
+    </div>
+    <div class="full">
+        <div class="card">
+            <div class="hero">
+                <form class="form">
+                    <input class="text" type="text" placeholder="Enter Your To-do List Task">
+                    <input class="duedate" type="date">
+                    <select id="priority">
+                        <option value="Low">Low</option>
+                        <option value="Medium">Medium</option>
+                        <option value="High">High</option>
+                    </select>
+                    <select id="status">
+                        <option value="Todo">Todo</option>
+                        <option value="Inprogress">inprogress</option>
+                        <option value="Done">Done</option>
+                    </select>
+                    <button class="btn" type="submit">ADD</button>
+                </form>
+
+            </div>
+            <div class="cardd">
+                <input type="text" class="search">
+            </div>
+            <div class="card2">
+                <div class="todo color">
+                    <div class="box1">
+                        <div class="box11 a">
+                            <h1>To-do list</h1>
+                            <p class="t x">0</p>
+                        </div>
+                        <div class="box12 a">
+                            <h1>High Priority</h1>
+                            <p class="p xx">0</p>
+                        </div>
+                    </div>
+                    <div class="box2 boxo">
+
+                    </div>
+                </div>
+                <div class="started color">
+                    <div class="box1">
+                        <div class="box11 a">
+                            <h1>Started</h1>
+                            <p class="t y">0</p>
+                        </div>
+                        <div class="box12 a">
+                            <h1>High Priority</h1>
+                            <p class="p yy">0</p>
+                        </div>
+                    </div>
+                    <div class="box3 boxo">
+
+                    </div>
+                </div>
+                <div class="done color">
+                    <div class="box1">
+                        <div class="box11 a">
+                            <h1>Completed</h1>
+                            <p class="t z">0</p>
+                        </div>
+                        <div class="box12 a">
+                            <h1>High Priority</h1>
+                            <p class="p zz">0</p>
+                        </div>
+                    </div>
+                    <div class="box4 boxo">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
